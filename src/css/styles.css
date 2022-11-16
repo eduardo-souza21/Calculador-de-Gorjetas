@@ -1,0 +1,74 @@
+:root{
+    --primary-image: url(../imagens/cyber3.gif);
+    --secondary-color: Dimgrey;
+    --tertiary-color: Gainsboro;
+    --color-e: red;
+}
+
+body{
+    background-image: var(--primary-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #006eff;
+    box-shadow: 5px 5px 5px #830000;
+    border-radius: 20px;
+
+}
+.title{
+    background: rgb(40, 243, 250);
+    color: black;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.tipsForm {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput {
+    background: white;
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+}
+
+.formInput:focus {
+    border: 3px solid var(--color-e);
+}
+
+.formSelect {
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.formSubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: var(--color-e);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+}
+
+#totalTip {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
